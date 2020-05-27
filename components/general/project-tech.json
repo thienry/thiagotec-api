@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_general_project_teches",
+  "info": {
+    "name": "project-tech",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
