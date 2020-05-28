@@ -1,0 +1,8 @@
+{
+  "provider": "cloudinary",
+  "providerOptions": {
+    "cloud_name": "thienry",
+    "api_key": "284277171695653",
+    "api_secret": "b_OtdBAOlRzx24VHGNjGaRcTDqo"
+  }
+}
