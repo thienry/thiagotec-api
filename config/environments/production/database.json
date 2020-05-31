@@ -4,8 +4,8 @@
     "default": {
       "connector": "bookshelf",
       "settings": {
-        "client": "mongodb",
-        "host": "${process.env.DATABASE_HOST || 'mongodb://thienry:ZIMW2LPSFJw5FPsE@cluster0-shard-00-00-y2jvi.mongodb.net:27017,cluster0-shard-00-01-y2jvi.mongodb.net:27017,cluster0-shard-00-02-y2jvi.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority'}",
+        "client": "sqlite",
+        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
         "port": "${process.env.DATABASE_PORT || 27017}",
         "database": "${process.env.DATABASE_NAME || 'strapi'}",
         "username": "${process.env.DATABASE_USERNAME || ''}",
